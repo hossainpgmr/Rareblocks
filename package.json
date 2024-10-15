@@ -1,0 +1,21 @@
+{
+  "name": "rareblocks",
+  "version": "1.0.0",
+  "description": "A custom design block system",
+  "main": "index.js",
+  "scripts": {
+    "rareblocks": "sass --watch scss:css"
+  },
+  "keywords": [
+    "design",
+    "blocks",
+    "sass",
+    "bootstrap"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.79.5"
+  }
+}
