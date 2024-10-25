@@ -4,8 +4,9 @@
 @import "components/hero";
 $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
 
-
-
+.extra-margin {
+  margin-top: 80px;
+}
 
 // bootstrap sass including
 @import "../node_modules/bootstrap/scss/bootstrap";

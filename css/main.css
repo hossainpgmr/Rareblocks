@@ -33,6 +33,91 @@
   text-transform: capitalize;
 }
 
+.hero-section {
+  display: flex;
+  padding: 0px 30px;
+  margin-top: 10px;
+}
+.hero-section .text-field {
+  flex: 1;
+  padding: 60px 95px 0px 0px;
+}
+.hero-section .text-field .text-area .text-heading h2, .hero-section .text-field .text-area .text-heading .h2 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 66px;
+}
+.hero-section .text-field .text-area .text-para p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Inter";
+  color: #52525b;
+  margin: 0;
+  margin-top: 32px;
+}
+.hero-section .text-field .input-area {
+  display: inline-block;
+  position: relative;
+  margin-top: 32px;
+  width: 100%;
+}
+.hero-section .text-field .input-area .email {
+  width: 100%;
+  position: relative;
+  padding: 18px 25px;
+  border-radius: 15px;
+  border: solid 1px;
+}
+.hero-section .text-field .input-area .submit {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+.hero-section .text-field .input-area .submit a {
+  text-decoration: none;
+}
+.hero-section .text-field .input-area .submit .button {
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #18181b;
+}
+.hero-section .text-field .product-quantity-area {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  margin-top: 32px;
+}
+.hero-section .text-field .product-quantity-area .quantity-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section .text-field .product-quantity-area .quantity-div .user-number h3, .hero-section .text-field .product-quantity-area .quantity-div .user-number .h3 {
+  font-size: 42px;
+  line-height: 62px;
+  font-weight: 500;
+  color: #18181b;
+}
+.hero-section .text-field .product-quantity-area .quantity-div .product-title h4, .hero-section .text-field .product-quantity-area .quantity-div .product-title .h4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.hero-section .img-field {
+  flex: 1;
+  padding-left: 95px;
+}
+
+.extra-margin {
+  margin-top: 80px;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors

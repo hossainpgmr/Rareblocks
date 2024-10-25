@@ -4,7 +4,7 @@
   "description": "A custom design block system",
   "main": "index.js",
   "scripts": {
-    "rareblocks": "sass --watch scss:css"
+    "dev": "sass --watch scss:css"
   },
   "keywords": [
     "design",

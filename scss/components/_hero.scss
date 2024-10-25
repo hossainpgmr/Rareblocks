@@ -1,0 +1,87 @@
+@mixin similar-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Inter";
+  color: #52525b;
+}
+
+.hero-section {
+  display: flex;
+  padding: 0px 30px;
+  margin-top: 10px;
+
+  .text-field {
+    flex: 1;
+    padding: 60px 95px 0px 0px;
+    .text-area {
+      .text-heading h2 {
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 66px;
+      }
+      .text-para p {
+        @include similar-text;
+        margin: 0;
+        margin-top: 32px;
+      }
+    }
+    .input-area {
+      display: inline-block;
+      position: relative;
+      margin-top: 32px;
+      width: 100%;
+      .email {
+        width: 100%;
+        position: relative;
+        padding: 18px 25px;
+        border-radius: 15px;
+        border: solid 1px;
+      }
+      .submit {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        a {
+          text-decoration: none;
+        }
+        .button {
+          font-size: 16px;
+          color: #fff;
+          padding: 12px 30px;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          background: #18181b;
+        }
+      }
+    }
+    .product-quantity-area {
+      display: flex;
+      gap: 50px;
+      position: relative;
+      margin-top: 32px;
+      .quantity-div {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        .user-number h3 {
+          font-size: 42px;
+          line-height: 62px;
+          font-weight: 500;
+          color: #18181b;
+        }
+        .product-title h4 {
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .img-field {
+    flex: 1;
+    padding-left: 95px;
+  }
+}
