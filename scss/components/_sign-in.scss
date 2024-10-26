@@ -1,0 +1,89 @@
+.sign-in-page {
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .text-area {
+    .text-para p {
+      font-size: 16px !important;
+      font-family: "Lexend", sans-serif;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+    }
+    .text-heading h3 {
+      font-size: 24px !important;
+      font-family: "Lexend", sans-serif;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: center;
+    }
+  }
+  .form {
+    margin-top: 32px;
+    .form-item {
+      width: 100%;
+      label {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.5px;
+      }
+      input {
+        width: 100%;
+        color: #393537;
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid #dedede;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17.5px;
+        font-family: "Lexend", sans-serif;
+        &:focus {
+          border: 1px solid #c5c5c5;
+          outline: none;
+        }
+        &::placeholder {
+          color: #cccccc;
+        }
+      }
+    }
+    .submit-btn {
+      width: 100%;
+      margin-top: 22px;
+      text-align: center;
+      .btn-mid-text {
+        margin: 10px 0;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .button {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 4px;
+        border: #dedede 1px solid;
+        font-family: "Lexend", sans-serif;
+        text-transform: capitalize;
+      }
+      .sign-btn {
+        color: #fff;
+        background: #0024de;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+      .gmail-btn {
+        color: #393537;
+        box-shadow: 0px 0px 8px 0px #00000026;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.5px;
+      }
+      img {
+        margin-right: 5px;
+      }
+    }
+  }
+}
