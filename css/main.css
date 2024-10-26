@@ -40,7 +40,7 @@
 }
 .hero-section .text-field {
   flex: 1;
-  padding: 60px 95px 0px 0px;
+  margin: 60px 95px 0px 0px;
 }
 .hero-section .text-field .text-area .text-heading h2, .hero-section .text-field .text-area .text-heading .h2 {
   font-size: 58px;
@@ -111,7 +111,39 @@
 }
 .hero-section .img-field {
   flex: 1;
-  padding-left: 95px;
+  margin-left: 95px;
+  position: relative;
+}
+.hero-section .img-field .hero-img {
+  position: relative;
+  width: 554px;
+}
+.hero-section .img-field .hero-img .main-img {
+  border-radius: 12px;
+  background-position: center;
+  object-fit: cover;
+}
+.hero-section .img-field .hero-img .card-img {
+  position: absolute;
+  bottom: -60px;
+  left: -20px;
+  width: 430px;
+  height: 310px;
+}
+.hero-section .img-field .hero-img .group-img {
+  position: absolute;
+  top: -25px;
+  left: -50px;
+}
+.hero-section .img-field .hero-img .vector-img {
+  position: absolute;
+  top: -15px;
+  right: 150px;
+}
+.hero-section .img-field .hero-img .vector-2-img {
+  position: absolute;
+  top: 70px;
+  right: 60px;
 }
 
 .extra-margin {
