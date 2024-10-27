@@ -235,6 +235,30 @@
   margin-right: 5px;
 }
 
+.form-group {
+  display: flex;
+  gap: 5px;
+}
+.form-group .form-check {
+  margin-right: 5px;
+}
+.form-group .form-check label {
+  color: #393537;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+
+.form .Gender {
+  display: block;
+  color: #393537;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+
 .extra-margin {
   margin-top: 80px;
 }
