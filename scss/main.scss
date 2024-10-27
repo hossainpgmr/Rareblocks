@@ -11,5 +11,76 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
   margin-top: 80px;
 }
 
+// service section start
+.service-section-headings {
+  margin: 170px 0 150px 0;
+  text-align: center;
+  .service-heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .service-sub-heading h3 {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+.service-section-wrapper {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  // gap: 15px;
+
+  .service-item {
+    padding: 30px 25px;
+    text-align: center;
+    border: 0.5px solid #e4e4e7;
+    .item-logo {
+      margin-bottom: 25px;
+    }
+    .item-heading {
+      margin: 20px 0;
+      h3 {
+        color: #18181b;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 28px;
+      }
+    }
+    .item-text {
+      margin-top: 25px;
+      p {
+        color: #52525b;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+
+    &:nth-child(-n + 3) {
+      border-top: none;
+      padding-bottom: 45px;
+    }
+    // Remove the bottom border for the last row (cards 4, 5, 6)
+    &:nth-child(n + 4) {
+      border-bottom: none;
+      padding-top: 45px;
+    }
+
+    // Remove the left border for the first column (cards 1 and 4)
+    &:nth-child(3n + 1) {
+      border-left: none;
+    }
+
+    // Remove the right border for the last column (cards 3 and 6)
+    &:nth-child(3n) {
+      border-right: none;
+    }
+  }
+}
+
 // bootstrap sass including
 @import "../node_modules/bootstrap/scss/bootstrap";
