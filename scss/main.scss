@@ -81,6 +81,105 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
     }
   }
 }
+// service section styling end
+
+// project build section styling start
+.project-build-section {
+  margin-top: 150px;
+  padding: 0 32px;
+  .project-build-heading-area {
+    margin-bottom: 50px;
+    width: 770px;
+    .pbh-sm-text {
+      a {
+        text-decoration: none;
+        p {
+          color: #6941c6;
+          font-family: "Inter";
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    .pb-heading {
+      h2 {
+        font-family: "Inter";
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        margin-bottom: 16px;
+      }
+    }
+    .pbh-para {
+      p {
+        color: #667085;
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+  }
+  .project-build-content-area {
+    display: flex;
+    gap: 50px;
+    .pbc-text-area {
+      width: 100%;
+      flex: 1;
+      .pbc-text-item-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        column-gap: 25px;
+        text-align: center;
+        margin-top: 48px;
+        .pbc-text-item {
+          .pbc-text-heading {
+            h2 {
+              color: #7f56d9;
+              font-family: "Inter";
+              font-size: 60px;
+              font-weight: 600;
+              line-height: 72px;
+            }
+          }
+          .pbc-text-sub-heading {
+            h3 {
+              color: #101828;
+              font-family: "Inter";
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 28px;
+            }
+          }
+          .pbc-text-para {
+            p {
+              color: #667085;
+              font-family: "Inter";
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    .pbc-img-area {
+      flex: 1;
+      img {
+        border-radius: 3px;
+      }
+    }
+  }
+}
+// project build section styling end
+// footer section styling start
+// footer section styling end
+
+
 
 // bootstrap sass including
 @import "../node_modules/bootstrap/scss/bootstrap";

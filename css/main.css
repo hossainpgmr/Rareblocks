@@ -326,6 +326,84 @@
   border-right: none;
 }
 
+.project-build-section {
+  margin-top: 150px;
+  padding: 0 32px;
+}
+.project-build-section .project-build-heading-area {
+  margin-bottom: 50px;
+  width: 770px;
+}
+.project-build-section .project-build-heading-area .pbh-sm-text a {
+  text-decoration: none;
+}
+.project-build-section .project-build-heading-area .pbh-sm-text a p {
+  color: #6941c6;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+.project-build-section .project-build-heading-area .pb-heading h2, .project-build-section .project-build-heading-area .pb-heading .h2 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.project-build-section .project-build-heading-area .pbh-para p {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.project-build-section .project-build-content-area {
+  display: flex;
+  gap: 50px;
+}
+.project-build-section .project-build-content-area .pbc-text-area {
+  width: 100%;
+  flex: 1;
+}
+.project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+  column-gap: 25px;
+  text-align: center;
+  margin-top: 48px;
+}
+.project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group .pbc-text-item .pbc-text-heading h2, .project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group .pbc-text-item .pbc-text-heading .h2 {
+  color: #7f56d9;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+}
+.project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group .pbc-text-item .pbc-text-sub-heading h3, .project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group .pbc-text-item .pbc-text-sub-heading .h3 {
+  color: #101828;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.project-build-section .project-build-content-area .pbc-text-area .pbc-text-item-group .pbc-text-item .pbc-text-para p {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project-build-section .project-build-content-area .pbc-img-area {
+  flex: 1;
+}
+.project-build-section .project-build-content-area .pbc-img-area img {
+  border-radius: 3px;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
