@@ -327,7 +327,8 @@
 }
 
 .project-build-section {
-  margin: 150px 0 50px 0;
+  margin-top: 150px;
+  margin-bottom: 100px;
   padding: 0 32px;
 }
 .project-build-section .project-build-heading-area {
@@ -406,7 +407,8 @@
 
 .footer-section .footer-card-area {
   width: 100%;
-  margin: 50px 0;
+  margin: 75px 0;
+  margin-bottom: 100px;
   padding: 75px;
   border-radius: 20px;
   background: #2563eb;
@@ -478,7 +480,8 @@
 .footer-section .footer-detail-area {
   display: flex;
   gap: 20px;
-  margin: 75px 0;
+  margin: 100px 0;
+  margin-bottom: 50px;
 }
 .footer-section .footer-detail-area .footer-detail-para {
   width: 250px;
@@ -517,11 +520,14 @@
 .footer-section .footer-detail-area .footer-detail-link-area {
   margin-left: 100px;
 }
+.footer-section .footer-detail-area .footer-detail-link-area .col-md-3:nth-of-type(4) {
+  text-transform: none;
+}
 .footer-section .footer-detail-area .footer-detail-link-area .footer-link-heading h3, .footer-section .footer-detail-area .footer-detail-link-area .footer-link-heading .h3 {
   text-transform: uppercase;
   color: #2563eb;
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 18px;
   font-family: "Inter";
 }
@@ -532,9 +538,10 @@
   padding: 0;
 }
 .footer-section .footer-detail-area .footer-detail-link-area .link-group .link-item {
+  text-transform: capitalize;
   margin-top: 20px;
   color: #52525b;
-  font-style: 14;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }

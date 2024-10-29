@@ -85,7 +85,8 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
 
 // project build section styling start
 .project-build-section {
-  margin: 150px 0 50px 0;
+  margin-top: 150px;
+  margin-bottom: 100px;
   padding: 0 32px;
   .project-build-heading-area {
     margin-bottom: 50px;
@@ -180,7 +181,8 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
 .footer-section {
   .footer-card-area {
     width: 100%;
-    margin: 50px 0;
+    margin: 75px 0;
+    margin-bottom: 100px;
     padding: 75px;
     border-radius: 20px;
     background: #2563eb;
@@ -258,7 +260,8 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
   .footer-detail-area {
     display: flex;
     gap: 20px;
-    margin: 75px 0;
+    margin: 100px 0;
+    margin-bottom: 50px;
     .footer-detail-para {
       width: 250px;
       color: #52525b;
@@ -298,12 +301,15 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
     }
     .footer-detail-link-area {
       margin-left: 100px;
+      .col-md-3:nth-of-type(4) {
+        text-transform: none;
+      }
       .footer-link-heading {
         h3 {
           text-transform: uppercase;
           color: #2563eb;
           font-size: 13px;
-          font-weight: 600px;
+          font-weight: 600;
           line-height: 18px;
           font-family: "Inter";
         }
@@ -314,9 +320,10 @@ $font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
         margin: 0;
         padding: 0;
         .link-item {
+          text-transform: capitalize;
           margin-top: 20px;
           color: #52525b;
-          font-style: 14;
+          font-size: 14px;
           font-weight: 400;
           line-height: 22px;
         }
